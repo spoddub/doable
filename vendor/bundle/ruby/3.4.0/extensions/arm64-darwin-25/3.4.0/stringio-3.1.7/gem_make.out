@@ -1,0 +1,19 @@
+current directory: /Users/spoddub/doable/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+/Users/spoddub/.local/share/mise/installs/ruby/3.4.2/bin/ruby extconf.rb
+checking for rb_io_mode_t in ruby/io.h... no
+creating Makefile
+
+current directory: /Users/spoddub/doable/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250930-72850-ja5qnp sitelibdir\=./.gem.20250930-72850-ja5qnp clean
+
+current directory: /Users/spoddub/doable/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250930-72850-ja5qnp sitelibdir\=./.gem.20250930-72850-ja5qnp
+compiling stringio.c
+linking shared-object stringio.bundle
+
+current directory: /Users/spoddub/doable/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250930-72850-ja5qnp sitelibdir\=./.gem.20250930-72850-ja5qnp install
+/usr/bin/install -c -m 0755 stringio.bundle ./.gem.20250930-72850-ja5qnp
+
+current directory: /Users/spoddub/doable/vendor/bundle/ruby/3.4.0/gems/stringio-3.1.7/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20250930-72850-ja5qnp sitelibdir\=./.gem.20250930-72850-ja5qnp clean
