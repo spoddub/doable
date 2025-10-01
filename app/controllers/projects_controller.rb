@@ -26,6 +26,15 @@ class ProjectsController < ApplicationController
     end
   end
 
+  def update
+    @project = Project.find(params[:id])
+    if @project.update(project_params)
+      redirect_to project_path(@project)
+    else
+      render :edit, status: :unprocessable_entity
+    end
+  end
+
   def project_params
     params.expect(project: [:name])
   end
